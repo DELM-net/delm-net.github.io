@@ -1,8 +1,8 @@
 import csv
 
 # Define the input and output file names
-input_file = 'register.csv'
-output_file = 'register-insert.html'
+input_file = '_local-scripts/register.csv'
+output_file = '_local-scripts/register-insert.html'
 
 # Read the CSV file and sort the entries by Surname
 entries = []
