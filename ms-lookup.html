@@ -32,6 +32,11 @@ a {
 a.active {
   font-weight: bold;
 }
+th, td {
+  padding: 5px 12px 5px 0px;
+  border-bottom: solid 1px #ccc;
+}
+
 
 </style>
 
@@ -55,8 +60,8 @@ a.active {
   
 <div class="container pb-5">
   <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
 
 <!-- template ends here; content follows -->
 
@@ -95,13 +100,13 @@ a.active {
 </table>
 
 <!-- Manuscript catalogues section -->
-<h2 class="mt-5 h2 pt-3">Manuscript catalogues</h2>
-<table class="table" id="cataloguesTable">
+<h2 class="mt-5 pt-3">Manuscript catalogues</h2>
+<table class="table small" id="cataloguesTable">
   <!-- Table content will be populated dynamically -->
 </table>
 
 <!-- Linked resources section -->
-<h2 class="mt-5 h2 pt-3">Linked resources</h2>
+<h2 class="mt-5 pt-3">Linked resources</h2>
 <table class="table small" id="linkedResourcesTable">
   <!-- Table content will be populated dynamically -->
 </table>
@@ -228,6 +233,9 @@ a.active {
       });
       table.appendChild(tr);
     });
+
+
+    table.offsetHeight;
   }
 
   // Prepare search results
@@ -326,7 +334,7 @@ a.active {
 <!-- template resumes here -->
         
     </div>
-    <div class="col-md-2"></div>
+    <div class="col-md-1"></div>
   </div>
 </div>
 
