@@ -1,0 +1,19 @@
+body {
+   font-size: 1.3em;
+   font-family: "Inria Sans", sans-serif;
+ }
+ 
+ nav {
+   background-color: #dad4c8;
+ }
+ nav h1 {
+   color: #745138;
+   font-weight: 700;
+ }
+ a {
+   color: #745138;
+ }
+ a.active {
+   font-weight: bold;
+ }
+ 
