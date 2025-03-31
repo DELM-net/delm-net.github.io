@@ -1,3 +1,7 @@
+# Converts the CSV file "register.csv" into an HTML file.
+# The output from "register-insert.html" can be pasted into the main HTML file "register.html".
+# The main HTML file can then be synced to the GitHub pages repository (to go live on the website).
+
 import csv
 
 # Define the input and output file names
